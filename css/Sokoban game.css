@@ -1,0 +1,140 @@
+body {
+    background-image: url(../img/background.jpg);
+    background-size: cover;
+}
+
+header {
+    color: white;
+    text-align: center;
+    font-size: 100px;
+    /* margin-bottom: 10px; */
+    -webkit-text-stroke-width: 1.5px;
+    -webkit-text-stroke-color: black;
+    font-weight: bold;
+}
+
+.homeButton {
+    width: 50px;
+    height: 50px;
+    /* float: left; */
+    border: 3px solid black;
+    border-radius: 15px;
+    background-color: white;
+}
+
+a {
+    text-decoration: none;    
+}
+
+.homeButton:hover {
+    cursor: pointer;
+    background-color: rgb(238, 238, 238);
+}
+
+.homeButton:active {
+    background-color: rgb(238, 238, 238);
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+}
+
+.homeButton:hover {
+    cursor: pointer;
+}
+
+table {
+    /* width: 600px; */
+    /* height: 700px; */
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    /* position: absolute; */
+    /* border: 3px solid black; */
+}
+
+td {
+    text-align: center;
+    width: 40px;
+    height: 40px;
+    font-size: 35px;
+    /* border: 2px solid black;  */
+}
+
+.boardimgs {
+    width: 45px;
+    height: 45px;
+    position: absolute;
+    margin-left: auto;
+    margin-right: auto;
+    /* display: block; */
+}
+
+.clicked {
+    outline: 2px solid goldenrod;
+}
+
+.winner {
+    color: goldenrod;
+     width: 400px;
+    height: 400px;
+    /*margin: auto; */
+    /* display: flex; */
+}
+.clearfix {
+    float:left;
+    left: 5px;
+    top: -12px;
+    position: absolute;
+}
+.restart {
+    /* float: left; */
+    border: 3px solid black;
+    border-radius: 15px;
+    background-color: white;
+    width: 70px;
+    height: 55px;
+    font-weight: bold;
+    display: inline-block;
+    font-size: 36px;
+    line-height: 36px;
+    padding-top: 14px;
+    color: black;
+}
+
+.restart:hover {
+    cursor: pointer;
+    background-color: rgb(238, 238, 238);
+}
+
+.restart:active {
+    background-color: rgb(238, 238, 238);
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+}
+
+.hider {
+    display: none;
+}
+
+.hider:hover {
+    cursor: pointer;
+}
+
+.steps {
+    font-size: 30px;
+    color: rgb(255, 253, 253);
+    font-weight: bold;
+    /* bottom: 80px;
+    left: 43%; */
+    position: absolute;
+    -webkit-text-stroke-width: 0.5px;
+    -webkit-text-stroke-color: black;
+}
+
+.steps span {
+    margin-left: 10px;
+}
+
+.x {
+    text-align: center;
+    margin: auto;
+}

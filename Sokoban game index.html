@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+
+<head>
+
+    <title>Sokoban</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    
+    <link rel="stylesheet" href="css/Sokoban game.css">
+</head>
+
+<body onload="initGame()" onkeydown="checkKey(event,this)">
+
+    <header>
+        Super Mario Sokoban
+        <span class="clearfix">
+        <a href="../homePage.html" class="restart">
+            <i class="fa fa-home" aria-hidden="true"></i>
+        </a>
+        <a class="restart" onclick="initGame()"><i class="fa fa-repeat" aria-hidden="true"></i></a>
+    </span>
+    </header>
+
+    <div class="x">
+        <table class="sokobanBoard"></table>
+        <!-- <img class="winner" src="img/trophy.png" /> -->
+    </div>
+
+    <div>
+    </div>
+
+    <div class="steps">
+        steps:
+        <span id="steps"></span>
+    </div>
+    <script src="js/Sokoban game.js"></script>
+</body>
+
+</html>
